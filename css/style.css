@@ -187,8 +187,19 @@ body{
     font-size: 2rem;
 }
 .sectB-desc{
+    position: absolute;
     color:hsl(270, 7%, 64%);
     font-size: 0.9rem;
     margin-top: -0.9rem;
+    z-index: 1;
+}
+.eclipse{
+    background-color:rgb(236, 234, 234) ;
+    width: 18em;
+    height: 570px;
+    position: absolute;
+    top: 115px;
+    right: 0px;
+    border-radius: 35em 20px 0px 0px;
 }
 
