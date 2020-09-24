@@ -2,7 +2,7 @@
 @media (max-width: 480.98px) {
     .container{
         flex-direction: column;
-        height: 2200px;
+        height: 1400px;
     }
     .sectA{
         width: 100%;
@@ -17,11 +17,12 @@
     .phone {
         margin-left: 3em;
         margin-top: -30em;
+        width: 19rem;
     }
     .cont2 {
-        left: 2rem;
+        left: 1.2rem;
         top: 173px;
-        width: 250px;
+        width: 190px;
         margin-left: 7rem;
         /* margin: 0 auto; */
     }
@@ -37,11 +38,12 @@
     }
     .top-title {
         margin-left: 6rem;
+        margin-top: -2.5rem;
     }
     .options {
     position: absolute;
     width: 5%;
-    margin-left: 17rem;
+    margin-left: 16rem;
     top: 2.8rem;
     }
     .price {
@@ -56,8 +58,7 @@
     .right-arr {
         margin-left: -2rem;
         width: 9%;
-        margin-top: 9em;
-        padding: 0.em 0.3em;
+        margin-top: 7em;
     }
     .sectB {
         width: 100%;
@@ -75,6 +76,94 @@
         font-size: 1rem;
     }
 }
-@media (min-width: 481px) and (max-width: 767.98px) {}
+@media (min-width: 481px) and (max-width: 767.98px) {
+    .container{
+        flex-direction: column;
+        height: 1600px;
+    }
+    .sectA{
+        width: 100%;
+    }
+    .eclipse{
+        display: none;
+    }
+    .rectangle {
+        margin-left: -13em;
+    }
+    .phone {
+        margin-left: 5em;
+        width: 30em;
+    }
+    .cont2 {
+        width: 280px;
+        left: 210px;
+    }
+    .top {
+        height: 100px;
+    }
+    .top-title {
+        margin-left: 8rem;
+    }
+    .top-desc {
+        margin-left: 8rem;
+    }
+    .options {
+        position: absolute;
+        width: 5%;
+        margin-left: 23em;
+        top: 3.8rem;
+    }
+    .mess1,.mess2,.mess5{
+        font-size: 0.9em;
+    }
+    .dog-mess2 {
+        font-size: 0.9rem;
+    }
+    .dog-mess {
+        font-size: 0.9rem;
+    }
+    .price-mess {
+        margin-left: 2.8rem;
+        font-size: 1.3rem;
+        margin-top: -2.4rem;
+    }
+    .price-tag {
+        margin-left: 17rem;
+        margin-top: -2.8rem;
+        font-size: 1.5rem;
+    }
+    .price {
+        height: 45px;
+        margin-bottom: 9px;
+    }
+    .right-arr {
+        position: absolute;
+        top: 825px;
+        margin-left: -2rem;
+        width: 6%;
+    }
+    .sectB {
+        width: 100%;
+        margin-top: -5rem;
+    }
+    .sectB-content {
+        padding: 1rem;
+        padding-top: 17rem;
+        text-align: center;
+    }
+    .sectB-title {
+    font-size: 4rem;
+    }
+    .sectB-desc {
+        font-size: 1.6rem;
+        padding-left: 11rem;
+    }
+    .sectB-desc {
+        font-size: 1.3rem;
+        padding-left: 5rem;
+        line-height: 24px;
+        margin-top: -29px;
+    }
+}
 @media (min-width: 768px) and (max-width: 1023.98px){}
 @media (min-width: 1024px) and (max-width: 1199.98px){}
