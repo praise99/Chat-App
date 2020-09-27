@@ -70,16 +70,19 @@
         text-align: center;
     }
     .sectB-title {
-    font-size: 3rem;
+    font-size: 2.7rem;
     }
     .sectB-desc {
-        font-size: 1rem;
+        font-size:0.9rem;
+        margin-left: auto;
+        position: inherit;
     }
 }
 @media (min-width: 481px) and (max-width: 767.98px) {
-    .container{
+    .container {
         flex-direction: column;
         height: 1600px;
+       
     }
     .sectA{
         width: 100%;
@@ -155,15 +158,244 @@
     font-size: 4rem;
     }
     .sectB-desc {
-        font-size: 1.6rem;
-        padding-left: 11rem;
-    }
-    .sectB-desc {
-        font-size: 1.3rem;
-        padding-left: 5rem;
-        line-height: 24px;
-        margin-top: -29px;
+        font-size: 1.2rem;
+        margin-left: auto;
+        position: inherit;
     }
 }
-@media (min-width: 768px) and (max-width: 1023.98px){}
-@media (min-width: 1024px) and (max-width: 1199.98px){}
+@media (min-width: 768px) and (max-width: 1023.98px){
+    .container{
+        flex-direction: column;
+        height: 1500px;
+    }
+    .sectA{
+        width: 100%;
+    }
+    .eclipse{
+        display: none;
+    }
+    .rectangle {
+        margin-left: -10em;
+        height: 40em;
+    }
+    .phone {
+        margin-left: 5em;
+        margin-top: -35em;
+        width: 35rem;
+    }
+    .sectB {
+        width: 100%;
+        margin-top: -5rem;
+    }
+    .sectB-content {
+        padding: 1rem;
+        padding-top: 17rem;
+        text-align: center;
+    }
+    .sectB-title {
+    font-size: 2.7rem;
+    }
+    .sectB-desc {
+        font-size: 0.9rem;
+    }
+    .top {
+        height: 120px;
+    }
+    .backarrow {
+        margin-bottom: 0.90rem;
+    }
+    .top-title {
+        font-size: 1.4rem;
+        margin-left: 9rem;
+        margin-top: -3.9rem;
+    }
+    .top-desc {
+        font-size: 1rem;
+        margin-left: 9.4rem;
+        margin-top: 0.7rem;
+    }
+    .options {
+        position: absolute;
+        width: 6%;
+        margin-left: 27em;
+        top: 3.7rem;
+    }
+    .cont2 {
+        width: 340px;
+        height: 30px;
+        top: 95px;
+        left: 218px;
+    }
+    .mess1 {
+    font-size: 1rem;
+    margin-right: 209px;
+    }
+    .mess2 {
+        font-size: 1rem;
+        margin-right: 209px;
+    }
+    .dog-mess {
+        font-size: 1rem;
+    }
+    .dog-mess2 {
+    font-size: 1rem;
+    }
+    .mess5 {
+    font-size: 1rem;
+    margin-right: 209px;
+    }
+    .price {
+        margin-top: 2px;
+        height: 46px;
+        padding-top: 2px;
+    }
+    .circle {
+        padding-top: 0.1rem;
+    }
+    .price-mess {
+        margin-left: 2.9rem;
+        font-size: 1.3rem;
+        margin-top: -2.2rem;
+    }
+    .price-tag {
+        margin-left: 19rem;
+        margin-top: -2.9rem;
+        font-size: 1.7rem;
+    }
+    .right-arr {
+        position: absolute;
+        top: 913px;
+        margin-left: -3rem;
+        width: 6%;
+    }
+    .sectB-title {
+        font-size: 3rem;
+    }
+    .sectB-desc {
+        font-size: 1.4rem;
+        margin-left: 13rem;
+    }
+    .sectB-desc {
+        font-size: 1.4rem;
+        margin-left: auto;
+        position: inherit;
+    }
+}
+@media (min-width: 1024px) and (max-width: 1200px){
+    .container{
+        flex-direction: column;
+        height: 1500px;
+    }
+    .sectA{
+        width: 100%;
+    }
+    .eclipse{
+        display: none;
+    }
+    .rectangle {
+        margin-left: -10em;
+        height: 40em;
+    }
+    .phone {
+        margin-left: 5em;
+        margin-top: -35em;
+        width: 35rem;
+    }
+    .sectB {
+        width: 100%;
+        margin-top: -5rem;
+    }
+    .sectB-content {
+        padding: 1rem;
+        padding-top: 17rem;
+        text-align: center;
+    }
+    .sectB-title {
+    font-size: 2.7rem;
+    }
+    .sectB-desc {
+        font-size: 0.9rem;
+    }
+    .top {
+        height: 120px;
+    }
+    .backarrow {
+        margin-bottom: 0.90rem;
+    }
+    .top-title {
+        font-size: 1.4rem;
+        margin-left: 9rem;
+        margin-top: -3.9rem;
+    }
+    .top-desc {
+        font-size: 1rem;
+        margin-left: 9.4rem;
+        margin-top: 0.7rem;
+    }
+    .options {
+        position: absolute;
+        width: 6%;
+        margin-left: 27em;
+        top: 3.7rem;
+    }
+    .cont2 {
+        width: 340px;
+        height: 30px;
+        top: 95px;
+        left: 218px;
+    }
+    .mess1 {
+    font-size: 1rem;
+    margin-right: 209px;
+    }
+    .mess2 {
+        font-size: 1rem;
+        margin-right: 209px;
+    }
+    .dog-mess {
+        font-size: 1rem;
+    }
+    .dog-mess2 {
+    font-size: 1rem;
+    }
+    .mess5 {
+    font-size: 1rem;
+    margin-right: 209px;
+    }
+    .price {
+        margin-top: 2px;
+        height: 46px;
+        padding-top: 2px;
+    }
+    .circle {
+        padding-top: 0.1rem;
+    }
+    .price-mess {
+        margin-left: 2.9rem;
+        font-size: 1.3rem;
+        margin-top: -2.2rem;
+    }
+    .price-tag {
+        margin-left: 19rem;
+        margin-top: -2.9rem;
+        font-size: 1.7rem;
+    }
+    .right-arr {
+        position: absolute;
+        top: 913px;
+        margin-left: -3rem;
+        width: 6%;
+    }
+    .sectB-title {
+        font-size: 3rem;
+    }
+    .sectB-desc {
+        font-size: 1.4rem;
+        margin-left: 13rem;
+    }
+    .sectB-desc {
+        font-size: 1.4rem;
+        margin-left: auto;
+        position: inherit;
+    }
+}
